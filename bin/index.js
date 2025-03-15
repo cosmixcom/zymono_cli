@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+#! /usr/bin/env node
+var shell = require("shelljs");
 
 const fetch = require('cross-fetch');
 const readline = require('readline');
